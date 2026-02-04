@@ -4,6 +4,8 @@ from sqlalchemy.orm import Session
 from app.core.database import get_db
 from services.user_service import UserCreate, UserOut
 from services.user_service import create_user, get_user_by_email, list_users
+from app.core.deps import get_current_user
+from models import User
 
 router = APIRouter()
 
@@ -25,4 +27,8 @@ def list_user_endpoint(skip:int=0,
                        db:Session=Depends(get_db)
                        ):
     return list_users(db, skip=skip, limit=limit)
+
+@router.get('/me',response_model=UserOut)
+def get_me(current_user: User=Depends(get_current_user)):
+    return current_user
     

@@ -8,3 +8,4 @@
 - Added guidance for User service layer (services/user_service.py) and schema setup.
 - Created users router (app/api/v1/routers/users.py) and included it in app/main.py.
 - Clarified auth router location (app/api/v1/routers/auth.py) and security utility location (app/core/security.py).
+- Added guidance for JWT decode, current user dependency (app/core/deps.py), and protected routes.
