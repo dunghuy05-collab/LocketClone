@@ -1,0 +1,10 @@
+2026-02-03
+- Initialized FastAPI skeleton: config, database, health router, and main app wiring.
+- Converted placeholder files into directories: models, schemas, services, app/api, app/core (with __init__.py).
+- Wrote requirements.txt with provided dependencies (comments normalized to ASCII).
+
+2026-02-04
+- Provided code samples for User model (models/user.py), model export (models/__init__.py), and User schemas (schemas/user.py).
+
+2026-02-04
+- Added guidance for User service layer (services/user_service.py) and schema setup.

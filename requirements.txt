@@ -1,0 +1,25 @@
+# Web Framework
+fastapi==0.109.0
+uvicorn==0.27.0
+python-multipart==0.0.6  # Bat buoc de xu ly upload file anh
+
+# Database & ORM
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9   # Driver cho PostgreSQL
+alembic==1.13.1          # Quan ly migration database
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0  # Xu ly JWT Token
+passlib[bcrypt]==1.7.4            # Ma hoa mat khau
+
+# Image Processing & Cloud Storage
+Pillow==10.2.0                    # Xu ly, nen anh
+cloudinary==1.38.0                # SDK de upload anh len Cloudinary (khuyen dung)
+
+# Real-time & Push Notifications
+firebase-admin==6.4.0             # Gui thong bao den Widget dien thoai
+
+# Environment & Utils
+python-dotenv==1.0.1              # Quan ly bien moi truong (.env)
+pydantic[email]==2.5.3            # Validate du lieu va email
+requests==2.31.0
