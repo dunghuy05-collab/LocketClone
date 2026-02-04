@@ -5,6 +5,6 @@
 
 2026-02-04
 - Provided code samples for User model (models/user.py), model export (models/__init__.py), and User schemas (schemas/user.py).
-
-2026-02-04
 - Added guidance for User service layer (services/user_service.py) and schema setup.
+- Created users router (app/api/v1/routers/users.py) and included it in app/main.py.
+- Clarified auth router location (app/api/v1/routers/auth.py) and security utility location (app/core/security.py).
