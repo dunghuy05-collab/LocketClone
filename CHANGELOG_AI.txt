@@ -9,3 +9,6 @@
 - Created users router (app/api/v1/routers/users.py) and included it in app/main.py.
 - Clarified auth router location (app/api/v1/routers/auth.py) and security utility location (app/core/security.py).
 - Added guidance for JWT decode, current user dependency (app/core/deps.py), and protected routes.
+- Set up Alembic (alembic.ini, alembic/env.py) and created initial users migration.
+- Added .gitignore and removed .env from tracking.
+- Added Photo model and schema files (models/photo.py, schemas/photo.py) with exports in __init__.py.
