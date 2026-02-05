@@ -12,3 +12,4 @@
 - Set up Alembic (alembic.ini, alembic/env.py) and created initial users migration.
 - Added .gitignore and removed .env from tracking.
 - Added Photo model and schema files (models/photo.py, schemas/photo.py) with exports in __init__.py.
+- Added Friend and Notification model/schema files with exports.
