@@ -13,3 +13,5 @@
 - Added .gitignore and removed .env from tracking.
 - Added Photo model and schema files (models/photo.py, schemas/photo.py) with exports in __init__.py.
 - Added Friend and Notification model/schema files with exports.
+- Renamed models/Notification.py to models/notification.py and fixed models/__init__.py imports.
+- Added Photos API service and router (services/photo_service.py, app/api/v1/routers/photos.py) and included in app/main.py.
